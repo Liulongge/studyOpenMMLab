@@ -1,6 +1,6 @@
 # 说明
-本工程位置： 放在mmdetection工程同级目录
-
+## 本工程位置： 放在mmdetection工程同级目录
+## 在提交或者运行推理之前需要先手动split/merge模型
 # 1、安装
 https://mmdetection.readthedocs.io/zh_CN/latest/get_started.html
 
@@ -54,6 +54,7 @@ https://blog.csdn.net/iLOVEJohnny/article/details/121077928?spm=1001.2014.3001.5
 
 
 # inference
-python demo/image_demo.py demo/demo.jpg rtmdet_tiny_8xb32-300e_coco.py --weights rtmdet_tiny_8xb32-300e_coco_20220902_112414-78e30dcc.pth --device cpu
-python ./demo/image_demo.py  ./demo/plant.jpg configs/faster_rcnn/faster-rcnn_r50_fpn_1x_coco.py --weights ./faster_rcnn_r50_fpn_1x_coco_20200130-047c8118.pth --device cpu
+studyMMDetection/script/inference.sh
+
+
 
